@@ -162,7 +162,7 @@ class Loader:
         hitData = self.hitCollector(True)
         nonhitData = self.nonhitCollector(hitData.shape[0],True)
         allData = hitData.append(nonhitData, ignore_index=True)
-        allData.to_csv(self.resultpath + '/all.csv')
+        #allData.to_csv(self.resultpath + '/all.csv')
         if(df):
             return allData
         return (allData.reset_index()).to_numpy()
