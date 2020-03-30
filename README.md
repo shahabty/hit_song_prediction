@@ -10,7 +10,13 @@ This repo contains an implementation of a hit song prediction network in Pytorch
 username@PC:~$ conda env create -f environment.yml
 username@PC:~$ conda activate hits
 ```
-3. Run train.py. 
+### Training and Testing
+#### Neural Network Model
+Run train_nn.py. 
+#### SVM Model
+Run train_svm.py
+#### Random Forest Model
+Run train_random_forest.py
 
 ## Contributors
 [Mahshid Alinoori](https://github.com/mahshidaln).
