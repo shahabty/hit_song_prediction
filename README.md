@@ -1,5 +1,5 @@
 # Hit Song Prediction
-This repo contains an implementation of a hit song prediction network in Pytorch.
+This repo contains implementations of random forest, support vector machine, and neural network for hit song prediction in Pytorch and Sklearn.
 
 ### Installation
 1. Install Anaconda3.
@@ -18,9 +18,21 @@ Run train_svm.py
 #### Random Forest Model
 Run train_random_forest.py
 
+### Visualization
+Please see this [link](https://elastic-curran-c983f0.netlify.com/) for the visualization.
+
+### Evaluation
+Our evaluation metrics are precision, recall, and F1-Score:
+
+#### Random Forest: 
+
+#### Neural Network:
+
+#### Support vector machine:
+
 ## Contributors
 [Mahshid Alinoori](https://github.com/mahshidaln).
-
+[Sara Boback](https://www.linkedin.com/in/sara-boback/)
 
 
 
