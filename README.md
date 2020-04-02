@@ -31,8 +31,8 @@ Our evaluation metrics are precision, recall, and F1-Score:
 #### Support vector machine:
 
 ## Contributors
-[Mahshid Alinoori](https://github.com/mahshidaln).
-[Sara Boback](https://www.linkedin.com/in/sara-boback/)
+[Mahshid Alinoori](https://github.com/mahshidaln),
+[Sara Boback](https://www.linkedin.com/in/sara-boback/).
 
 
 
