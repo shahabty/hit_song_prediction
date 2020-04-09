@@ -13,15 +13,15 @@ username@PC:~$ conda activate hits
 ### Training and Testing
 #### Neural Network Model
 ```console
-username@PC:~$ train_nn.py.
+username@PC:~$ python train_nn.py.
 ```
 #### SVM Model
 ```console
-username@PC:~$ train_svm.py
+username@PC:~$ python train_svm.py
 ```
 #### Random Forest Model
 ```console
-username@PC:~$ train_random_forest.py
+username@PC:~$ python train_random_forest.py
 ```
 ### Visualization
 Please see this [link](https://elastic-curran-c983f0.netlify.com/) for the visualization of our neural network results.
