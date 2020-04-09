@@ -13,18 +13,18 @@ username@PC:~$ conda activate hits
 ### Training and Testing
 #### Neural Network Model
 ```console
-Run train_nn.py.
+username@PC:~$ train_nn.py.
 ```
 #### SVM Model
 ```console
-Run train_svm.py
+username@PC:~$ train_svm.py
 ```
 #### Random Forest Model
 ```console
-Run train_random_forest.py
+username@PC:~$ train_random_forest.py
 ```
 ### Visualization
-Please see this [link](https://elastic-curran-c983f0.netlify.com/) for the visualization.
+Please see this [link](https://elastic-curran-c983f0.netlify.com/) for the visualization of our neural network results.
 
 ### Evaluation
 Our evaluation metrics are precision, recall, and F1-Score:
