@@ -32,7 +32,8 @@ The code for the above visualization is available [here](https://github.com/sara
 Our evaluation metrics are precision, recall, and F1-Score:
 
 /***
-\begin{table}
+
+\begin{table}[]
 \centering
 \begin{tabular}{|l|c|c|c|} 
 \hline
@@ -52,6 +53,7 @@ NN (Combined)   & 0.90                                     & 0.90               
 \hline
 \end{tabular}
 \end{table}
+
 ***/
 
 High: only high-level features are considered in the training and testing.
