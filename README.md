@@ -31,30 +31,17 @@ The code for the above visualization is available [here](https://github.com/sara
 ### Evaluation
 Our evaluation metrics are precision, recall, and F1-Score:
 
-/***
-
-\begin{table}[]
-\centering
-\begin{tabular}{|l|c|c|c|} 
-\hline
-\textbf{Model}  & \multicolumn{1}{l|}{\textbf{Precision} } & \multicolumn{1}{l|}{\textbf{Recall} } & \multicolumn{1}{l|}{\textbf{F1 Score} }  \\ 
-\hline
-SVM (High)      & 0.71                                        & 0.70                                     & 0.71                                        \\
-SVM (Low)       & 0.71                                        & 0.80                                     & 0.75                                        \\
-SVM (Combined)  & 0.71                                     & 0.80                                  & 0.75                                     \\ 
-\hline
-RF (High)       & 0.90                                        & 0.93                                     & 0.92                                        \\
-RF (Low)        & 0.92                                        & 0.94                                     & 0.93                                        \\
-RF (Combined)   & 0.91                                     & 0.94                                  & 0.93                                     \\ 
-\hline
-NN (High)       & 0.87                                      & 0.82                                     & 0.84                                        \\
-NN (Low)        & 0.90                                        & 0.87                                     & 0.89                                        \\
-NN (Combined)   & 0.90                                     & 0.90                                  & 0.90                                      \\
-\hline
-\end{tabular}
-\end{table}
-
-***/
+|     Model     | Precision | Recall | F1-Score |
+|:-------------:|:---------:|:------:|:--------:|
+|   SVM(High)   |    0.71   |  0.70  |   0.71   |
+|    SVM(Low)   |    0.71   |  0.80  |   0.75   |
+| SVM(Combined) |    0.71   |  0.80  |   0.75   |
+|    RF(High)   |    0.90   |  0.93  |   0.92   |
+|    RF(Low)    |    0.92   |  0.94  |   0.93   |
+|  RF(Combined) |    0.91   |  0.94  |   0.93   |
+|    NN(High)   |    0.87   |  0.82  |   0.84   |
+|    NN(Low)    |    0.90   |  0.87  |   0.89   |
+|  NN(Combined) |    0.90   |  0.90  |   0.90   |
 
 High: only high-level features are considered in the training and testing.
 Low: only low-level features are considered in the training and testing.
