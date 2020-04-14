@@ -24,7 +24,9 @@ username@PC:~$ python train_svm.py
 username@PC:~$ python train_random_forest.py
 ```
 ### Visualization
-Please see this [link](https://elastic-curran-c983f0.netlify.com/) for the visualization of our neural network results.
+Please visit this [link](https://elastic-curran-c983f0.netlify.com/) for the visualization of our neural network results.
+
+The code for the above visualization is available [here](https://github.com/saraboback/SongPredictionViz/tree/master/song-prediction-master).
 
 ### Evaluation
 Our evaluation metrics are precision, recall, and F1-Score:
