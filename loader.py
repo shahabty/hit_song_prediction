@@ -31,7 +31,6 @@ their labels and ids. you need to determine the number of bins for year and lowl
 the first column of the numpy array contains the ids
 the second column contains the labels
 the rest of the columns contains all features in the format of 0/1
-!!!Please take care of the rest of the OneMillion class as I am not sure how you want to use ids and labels!!!
 """
 
 class OneMillion():
